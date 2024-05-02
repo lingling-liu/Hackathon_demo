@@ -41,6 +41,11 @@ Download the required shapefiles from the following GitHub repository:
 
 [Download Shapefiles](https://github.com/lingling-liu/Hackathon_demo/tree/main/data)
 
+After downloading, move the data from the `data/GBIF` folder into the following directory on your local machine:
+
+```plaintext
+C:/KIDS/data2024_0321/GBIF_Parallel_GIS_group/demo/
+```
 ### Step 7: Run biodiversity_demo.ipynb
 
 1. Copy the `biodiversity_demo.ipynb` notebook into your Jupyter Notebook.
