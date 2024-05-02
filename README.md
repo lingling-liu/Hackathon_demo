@@ -37,6 +37,10 @@ jupyter notebook
 %pip install matplotlib
 ```
 
+## Loading the Shapefiles
+Download the required shapefiles from the following GitHub repository:
+Download Shapefiles
+
 
 
 
