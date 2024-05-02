@@ -1,32 +1,21 @@
-# Hackathon_demo
-This is the demo for Biodiversity Hackathon.
+# Biodiversity Hackathon Demo
 
-# Installation
+This repository contains materials and instructions for participants of the Biodiversity Hackathon.
 
--   Install Mambaforge from https://github.com/conda-forge/miniforge#mambaforge
--   For convenience, during installation, I select yes for "Add Mambaforge to my PATH environment Variable"
--   (PC) Open the Miniforge Prompt (search for it in the start menu) or (Mac) just type "mamba init"
--   Create a new mamba environment with the following commands (here it is named env_kids):
+## Installation Instructions
 
-`mamba create -n env_kids -c conda-forge`
+### Step 1: Install Mambaforge
 
--   Activate the environment
+1. Download Mambaforge from [the official Conda-Forge page](https://github.com/conda-forge/miniforge#mambaforge).
+2. During installation, choose "Yes" to add Mambaforge to your PATH environment variable.
+3. For Windows, open the Miniforge Prompt from the start menu. For macOS, open a terminal and type `mamba init`.
 
-`mamba activate env_kids`
+### Step 2: Create and Activate a Mamba Environment
 
--   Install libraries using the mamba command:
+Create a new environment called `env_kids`:
 
-`conda create -n gee python=3.11`
-`conda activate env_kids`
-`conda install ipykernel`
-`python -m ipykernel install --user --name kids --display-name "Python (env_kids)"`
-`conda install -n base mamba -c conda-forge`
-`!pip install geopandas`
-`conda install -c conda-forge geopandas`
-`conda install -c conda-forge gdal`
+```bash
+mamba create -n env_kids -c conda-forge
+mamba activate env_kids
 
--   Launch Jupyter notebook :
 
-`jupyter notebook`
-`%pip install ipywidgets`
-`%pip install matplotlib`
