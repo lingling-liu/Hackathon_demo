@@ -21,7 +21,6 @@ mamba activate env_kids
 ### Step 3: Step 3: Install Necessary Libraries
 ```bash
 conda install -n base mamba -c conda-forge
-mamba install geopandas -c conda-forge
 conda install ipykernel
 python -m ipykernel install --user --name kids --display-name "Python (env_kids)"
 conda install -c conda-forge geopandas
@@ -55,9 +54,3 @@ directory = "C:\\Path\\To\\Your\\Data\\GBIF_Parallel_GIS_group\\demo\\"
 
 # Location for output pivot table
 output_dir = "C:\\Path\\To\\Your\\Output\\Directory\\species\\demo\\"
-
-
-
-
-
-
