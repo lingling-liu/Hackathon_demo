@@ -17,7 +17,7 @@ Create a new environment called `env_kids`:
 ```bash
 conda create -n env_kids python=3.11
 mamba activate env_kids
-
+```
 ### Step 3: Step 3: Install Necessary Libraries
 ```bash
 conda install -n base mamba -c conda-forge
