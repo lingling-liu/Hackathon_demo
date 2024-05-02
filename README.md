@@ -36,13 +36,25 @@ jupyter notebook
 %pip install ipywidgets
 %pip install matplotlib
 ```
-
-## Loading the Shapefiles
+### Step 6: Loading the Shapefiles
 
 Download the required shapefiles from the following GitHub repository:
 
 [Download Shapefiles](https://github.com/lingling-liu/Hackathon_demo/tree/main/data)
 
+### Step 7: Run biodiversity_demo.ipynb
+
+1. Copy the `biodiversity_demo.ipynb` notebook into your Jupyter Notebook.
+2. Before running the notebook, change the paths to the shapefiles and data directories to match your local directory structure. Update the following code blocks in the notebook:
+
+```python
+# Load the shapefiles
+gdf_shp = gpd.read_file("C:\\Path\\To\\Your\\Shapefile\\WB_countries_Admin0_10m.shp")
+# Folder for GBIF
+directory = "C:\\Path\\To\\Your\\Data\\GBIF_Parallel_GIS_group\\demo\\"
+
+# Location for output pivot table
+output_dir = "C:\\Path\\To\\Your\\Output\\Directory\\species\\demo\\"
 
 
 
