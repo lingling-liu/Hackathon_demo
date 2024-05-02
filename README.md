@@ -26,15 +26,16 @@ conda install ipykernel
 python -m ipykernel install --user --name kids --display-name "Python (env_kids)"
 conda install -c conda-forge geopandas
 conda install -c conda-forge gdal
-
+```
 ### Step 4: Launch Jupyter Notebook
 ```bash
 jupyter notebook
-
+```
 ###  Step 5: Install Additional Python Packages
 ```bash
 %pip install ipywidgets
 %pip install matplotlib
+```
 
 
 
