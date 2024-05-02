@@ -15,7 +15,29 @@ This repository contains materials and instructions for participants of the Biod
 Create a new environment called `env_kids`:
 
 ```bash
-mamba create -n env_kids -c conda-forge
+conda create -n env_kids python=3.11
 mamba activate env_kids
+
+### Step 3: Step 3: Install Necessary Libraries
+```bash
+conda install -n base mamba -c conda-forge
+mamba install geopandas -c conda-forge
+conda install ipykernel
+python -m ipykernel install --user --name kids --display-name "Python (env_kids)"
+conda install -c conda-forge geopandas
+conda install -c conda-forge gdal
+
+### Step 4: Launch Jupyter Notebook
+```bash
+jupyter notebook
+
+###  Step 5: Install Additional Python Packages
+```bash
+%pip install ipywidgets
+%pip install matplotlib
+
+
+
+
 
 
