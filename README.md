@@ -18,9 +18,15 @@ This is the demo for Biodiversity Hackathon.
 
 `conda create -n gee python=3.11`
 `conda activate env_kids`
+`conda install ipykernel`
+`python -m ipykernel install --user --name kids --display-name "Python (env_kids)"`
 `conda install -n base mamba -c conda-forge`
-`mamba install geopandas -c conda-forge`
+`!pip install geopandas`
+`conda install -c conda-forge geopandas`
+`conda install -c conda-forge gdal`
 
 -   Launch Jupyter notebook :
 
 `jupyter notebook`
+`%pip install ipywidgets`
+`%pip install matplotlib`
