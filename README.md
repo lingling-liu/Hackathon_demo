@@ -41,7 +41,7 @@ Download the required shapefiles from the following GitHub repository:
 
 [Download Shapefiles](https://github.com/lingling-liu/Hackathon_demo/tree/main/data)
 
-After downloading, move the data from the `data/GBIF` folder into the following directory on your local machine:
+After downloading, move the data from the `data/GBIF` folder into the following directory on your local machine like below or any folder you want to put in:
 
 ```plaintext
 C:/KIDS/data2024_0321/GBIF_Parallel_GIS_group/demo/
