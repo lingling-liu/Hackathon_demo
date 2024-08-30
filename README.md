@@ -34,6 +34,8 @@ jupyter notebook
 ```bash
 %pip install ipywidgets
 %pip install matplotlib
+%pip install alive-progress
+
 ```
 ### Step 6: Loading the Shapefiles
 
